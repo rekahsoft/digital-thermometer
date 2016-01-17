@@ -57,7 +57,7 @@
 //#define LCD_FONT_5x10
 
 /* Support ANSI escapes; comment to disable */
-#define LCD_ANSI_ESCAPE_ENABLE
+//#define LCD_ANSI_ESCAPE_ENABLE
 
 /* Modes */
 
@@ -71,17 +71,17 @@
 
 /* All mode options */
 
-#define LCD_RS          PD2
-#define LCD_RS_PORT     PORTD
-#define LCD_RS_DDR      DDRD
+#define LCD_RS          PB0
+#define LCD_RS_PORT     PORTB
+#define LCD_RS_DDR      DDRB
 
-#define LCD_RW          PD3
-#define LCD_RW_PORT     PORTD
-#define LCD_RW_DDR      DDRD
+#define LCD_RW          PB1
+#define LCD_RW_PORT     PORTB
+#define LCD_RW_DDR      DDRB
 
-#define LCD_ENABLE      PD4
-#define LCD_ENABLE_PORT PORTD
-#define LCD_ENABLE_DDR  DDRD
+#define LCD_ENABLE      PB2
+#define LCD_ENABLE_PORT PORTB
+#define LCD_ENABLE_DDR  DDRB
 
 /*
   Mode specific settings
@@ -122,22 +122,22 @@
 
 /* FOUR_BIT_MODE and EIGHT_BIT_ARBITRARY_PIN_MODE shared settings */
 
-#define LCD_DBUS4      PB4
+#define LCD_DBUS4      PB3
 #define LCD_DBUS4_PORT PORTB
 #define LCD_DBUS4_DDR  DDRB
 #define LCD_DBUS4_PIN  PINB
 
-#define LCD_DBUS5      PB5
+#define LCD_DBUS5      PB4
 #define LCD_DBUS5_PORT PORTB
 #define LCD_DBUS5_DDR  DDRB
 #define LCD_DBUS5_PIN  PINB
 
-#define LCD_DBUS6      PB6
+#define LCD_DBUS6      PB5
 #define LCD_DBUS6_PORT PORTB
 #define LCD_DBUS6_DDR  DDRB
 #define LCD_DBUS6_PIN  PINB
 
-#define LCD_DBUS7      PB7
+#define LCD_DBUS7      PB6
 #define LCD_DBUS7_PORT PORTB
 #define LCD_DBUS7_DDR  DDRB
 #define LCD_DBUS7_PIN  PINB
